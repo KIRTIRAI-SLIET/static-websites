@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Form Validation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <form id="signupForm">
+      <label>Email</label><br />
+      <input type="text" class="field" id="email" placeholder="Example@email.com"/>
+      <p id="emailMsg" class="error"></p>
+      <label>Password</label><br />
+      <input type="password" class="field" id="password" placeholder="Your Password"/>
+      <p id="passwordMsg" class="error"></p>
+      <p id="finalMsg"></p>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </body>
+</html>
