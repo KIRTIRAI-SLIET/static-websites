@@ -1,0 +1,25 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+  background-color: black;
+  color: #fff;
+}
+input {
+  margin: 5px;
+  padding: 5px;
+}
+button {
+  padding: 6px 10px;
+  margin-top: 10px;
+}
+.error {
+  color: red;
+}
+.success {
+  color: green;
+}
+.employee {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
